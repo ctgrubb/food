@@ -6,7 +6,7 @@
 {% endif %}</h4>
 <div class="flex flex-wrap" itemprop="nutrition" itemscope itemtype="http://schema.org/NutritionInformation">
 {% assign nutrients = page.nutrition %}
-{% for nutrient in nutrients  %}
+{% for nutrient in nutrients %}
   {% if nutrient.first == 'servingSize' %}{% continue %}{% endif %}
   {% assign itemprop = nutrient.first %}
   {% assign name = site.data.nutrients[itemprop].name %}
