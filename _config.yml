@@ -1,13 +1,14 @@
 # Site settings
-title: Chowdown
-email: your-email@domain.com
+title: Recipes
+email: ctgrubb@vt.edu
 description: The plain text recipe database for hackers
-baseurl: "https://chowdown.io"
+baseurl: ""
+repository: "ctgrubb/food"
 language: "en"
 lang_direction: "ltr"
 color: "#007FFF"
-twitter_username: clarklab
-github_username:  clarklab
+twitter_username:
+github_username:  ctgrubb
 
 # Build settings
 markdown: kramdown

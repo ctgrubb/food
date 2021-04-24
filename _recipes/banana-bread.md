@@ -2,6 +2,7 @@
 
 layout: recipe
 title:  "Banana Bread"
+books: [american]
 image: banana-bread.jpg
 imagecredit: https://flic.kr/p/7HZmzn
 tags: breakfast, baking
