@@ -3,10 +3,13 @@ layout: recipe
 title:  {TITLE}
 image: {IMAGENAME}
 # imagecredit:
-# courses: [appetiser, entree, breakfast, snack, lunch, tiffin, dinner, supper]
-# cuisines: [Mediterranean, Irish, British, Mexican, French]
+books: [american, mexican, soups, indian]
+courses: [appetiser, entree, breakfast, snack, lunch, tiffin, dinner, supper]
+cuisines: [Mediterranean, Irish, British, Mexican, French]
 # diets: [Diabetic, GlutenFree, Halal, Hindu, Kosher, LowCalorie, LowFat, LowLactose, LowSalt, Vegan, Vegetarian]
-# yield: 4 slices
+yield: 4 slices
+preptime: PT30m
+cooktime: PT30m
 published: true
 
 ingredients:
