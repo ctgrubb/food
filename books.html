@@ -2,15 +2,13 @@
 layout: default
 ---
 
-<div class="container">
+<div class="max-w-6xl mx-auto px-4 py-8">
+  <h1 class="text-3xl font-gelica mb-4 text-center">Books</h1>
+  <p class="text-center text-gray-700 mb-8">Here's all the lovely books we have.</p>
 
-  <h1>Books</h1>
-  <p>Here's all the lovely books we have.</p>
-
-  <div class="clearfix">
-  {% for book in site.books %}
-  {% include book-preview.html book=book %}
-  {% endfor %}
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    {% for book in site.books %}
+      {% include book-preview.html book=book %}
+    {% endfor %}
   </div>
-
 </div>
