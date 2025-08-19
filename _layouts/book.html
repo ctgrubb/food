@@ -24,6 +24,9 @@ layout: default
             {% endif %}
             
             <div class="flex-1">
+              <h2 class="font-semibold text-xl md:text-2xl text-primary font-gelica">
+                {{ recipe.title }}
+              </h2>
               <div class="flex items-center space-x-2 mb-1">
                 {% if recipe.totaltime %}
                   <svg class="gray flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 512 512" fill="currentColor">
@@ -33,10 +36,10 @@ layout: default
                   </svg>
                   <span class="text-sm text-gray-700" id="cardTotalTime_{{ recipe.id }}" data-iso8601="{{ recipe.totaltime | upcase }}"></span>
                 {% endif %}
+                {% if recipe.yield %}
+                  {% include yield.html recipe=recipe %}
+                {% endif %}
               </div>
-              <h2 class="font-semibold text-xl md:text-2xl text-primary font-gelica">
-                {{ recipe.title }}
-              </h2>
             </div>
           </a>
         {% endif %}
