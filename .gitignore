@@ -3,3 +3,8 @@
 /.jekyll-cache/
 Gemfile
 Gemfile.lock
+.DS_Store
+_recipes/.obsidian/app.json
+_recipes/.obsidian/appearance.json
+_recipes/.obsidian/core-plugins.json
+_recipes/.obsidian/workspace.json

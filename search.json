@@ -11,8 +11,15 @@
       {% if post.diets %}"diets"       : "{% for diet in post.diets %}{{ diet | escape }} {% endfor %}",{% endif %}
       {% if post.courses %}"courses"  : "{% for course in post.courses %}{{ course | escape }} {% endfor %}",{% endif %}
       "image"	   : "{{ site.baseurl }}/images/{{ post.image }}",
+<<<<<<< HEAD
 	    "url"      : "{{ site.baseurl }}{{ post.url }}"
 
+=======
+	    "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "description": "{{ post.content | strip_html | replace: '"', '' | replace: "'", '' | strip_newlines }}"
+
+      
+>>>>>>> upstream/gh-pages
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
