@@ -7,6 +7,28 @@
 
         {{ content }}
 
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      let lastScroll = 0;
+      const nav = document.querySelector('.bottom-nav');
+    
+      window.addEventListener('scroll', () => {
+        const current = window.scrollY;
+    
+        if (current > lastScroll && current > 50) {
+          // scrolling down -> hide navbar
+          nav.style.transform = 'translateY(100%)';
+          nav.style.transition = 'transform 0.3s ease';
+        } else {
+          // scrolling up -> show navbar
+          nav.style.transform = 'translateY(0)';
+          nav.style.transition = 'transform 0.3s ease';
+        }
+    
+        lastScroll = current;
+      });
+    });
+    </script>
 
   </body>
 
