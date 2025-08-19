@@ -1,11 +1,12 @@
+{% assign thisBook = include.book %}
 <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-  {% if include.book.image %}
-    <img src="{{ site.baseurl }}/images/{{ include.book.image }}" alt="{{ include.book.title }}" class="w-full h-64 object-cover">
+  {% if thisBook.cover %}
+    <img src="{{ site.baseurl }}/images/{{ thisBook.cover }}" alt="{{ thisBook.title }}" class="w-full h-64 object-cover">
   {% endif %}
   <div class="p-4">
-    <h2 class="text-xl font-gelica mb-2">{{ include.book.title }}</h2>
-    {% if include.book.covernotes %}
-      <p class="text-gray-700 text-sm">{{ include.book.covernotes }}</p>
+    <h2 class="text-xl font-gelica mb-2">{{ thisBook.title }}</h2>
+    {% if thisBook.covernotes %}
+      <p class="text-gray-700 text-sm">{{ thisBook.covernotes }}</p>
     {% endif %}
   </div>
 </div>
