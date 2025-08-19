@@ -1,54 +1,53 @@
 {% assign thisRecipe = include.recipe %}
 <div class="center ml2 mr2 flex flex-wrap items-center gap-4">
+
   {% if thisRecipe.preptime %}
-  <div class="flex items-center space-x-2">
-    <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 512 512" fill="currentColor">
+  <div class="flex items-center gap-2">
+    <svg class="gray w-6 h-6 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
       <circle cx="256" cy="256" r="256"/>
       <rect x="246.21" y="52.09" width="19.58" height="214.26" rx="9.79" fill="#fff"/>
       <rect x="290.06" y="228.55" width="19.58" height="143.63" rx="9.79" transform="translate(724.26 300.72) rotate(135)" fill="#fff"/>
     </svg>
-    <span class="blue caps">Prep</span>
-    <span class="nowrap" id="prepTime_{{ thisRecipe.id }}" data-iso8601="{{ thisRecipe.preptime | upcase }}"></span>
+    <span class="blue caps font-medium">Prep:</span>
+    <span class="text-gray-700 nowrap" id="prepTime_{{ thisRecipe.id }}" data-iso8601="{{ thisRecipe.preptime | upcase }}"></span>
   </div>
-  <meta itemprop="prepTime" content="{{ thisRecipe.preptime | upcase }}">
   {% endif %}
 
   {% if thisRecipe.cooktime %}
-  <div class="flex items-center space-x-2">
-    <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 512 512" fill="currentColor">
+  <div class="flex items-center gap-2">
+    <svg class="gray w-6 h-6 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
       <circle cx="256" cy="256" r="256"/>
       <rect x="246.21" y="52.09" width="19.58" height="214.26" rx="9.79" fill="#fff"/>
       <rect x="290.06" y="228.55" width="19.58" height="143.63" rx="9.79" transform="translate(724.26 300.72) rotate(135)" fill="#fff"/>
     </svg>
-    <span class="h4 blue caps">Cook</span>
-    <span class="nowrap" id="cookTime_{{ thisRecipe.id }}" data-iso8601="{{ thisRecipe.cooktime | upcase }}"></span>
+    <span class="blue caps font-medium">Cook:</span>
+    <span class="text-gray-700 nowrap" id="cookTime_{{ thisRecipe.id }}" data-iso8601="{{ thisRecipe.cooktime | upcase }}"></span>
   </div>
-  <meta itemprop="cookTime" content="{{ thisRecipe.cooktime | upcase }}">
   {% endif %}
 
   {% if thisRecipe.totaltime %}
-  <div class="flex items-center space-x-2">
-    <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 512 512" fill="currentColor">
+  <div class="flex items-center gap-2">
+    <svg class="gray w-6 h-6 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
       <circle cx="256" cy="256" r="256"/>
       <rect x="246.21" y="52.09" width="19.58" height="214.26" rx="9.79" fill="#fff"/>
       <rect x="290.06" y="228.55" width="19.58" height="143.63" rx="9.79" transform="translate(724.26 300.72) rotate(135)" fill="#fff"/>
     </svg>
-    <span class="h4 blue caps">Total</span>
-    <span class="nowrap" id="totalTime_{{ thisRecipe.id }}" data-iso8601="{{ thisRecipe.totaltime | upcase }}"></span>
+    <span class="blue caps font-medium">Total:</span>
+    <span class="text-gray-700 nowrap" id="totalTime_{{ thisRecipe.id }}" data-iso8601="{{ thisRecipe.totaltime | upcase }}"></span>
   </div>
-  <meta itemprop="totalTime" content="{{ thisRecipe.totaltime | upcase }}">
   {% endif %}
 
   {% if thisRecipe.activetime %}
-  <div class="flex items-center space-x-2">
-    <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 512 512" fill="currentColor">
+  <div class="flex items-center gap-2">
+    <svg class="gray w-6 h-6 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
       <circle cx="256" cy="256" r="256"/>
       <rect x="246.21" y="52.09" width="19.58" height="214.26" rx="9.79" fill="#fff"/>
       <rect x="290.06" y="228.55" width="19.58" height="143.63" rx="9.79" transform="translate(724.26 300.72) rotate(135)" fill="#fff"/>
     </svg>
-    <span class="h4 blue caps">Active</span>
-    <span class="nowrap" id="activeTime_{{ thisRecipe.id }}" data-iso8601="{{ thisRecipe.activetime | upcase }}"></span>
+    <span class="blue caps font-medium">Active:</span>
+    <span class="text-gray-700 nowrap" id="activeTime_{{ thisRecipe.id }}" data-iso8601="{{ thisRecipe.activetime | upcase }}"></span>
   </div>
   {% endif %}
+
 </div>
 {% assign thisRecipe = nil %}
