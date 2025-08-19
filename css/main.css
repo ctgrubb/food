@@ -7,6 +7,11 @@
     padding-top: 80px; }
 
   div.content {
-    padding-bottom: 80px; } }
+    height: auto !important;
+    /* override h-full */
+    padding-bottom: 80px !important;
+    /* match nav height */
+    overflow-y: auto;
+    /* make sure scrolling still works */ } }
 
 /*# sourceMappingURL=main.css.map */
