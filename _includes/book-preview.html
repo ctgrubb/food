@@ -1,7 +1,7 @@
 {% assign thisBook = include.book %}
-<a href="{{ thisBookook.url }}" class="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition-shadow ">
+<a href="{{ thisBookook.url | relative_url}}" class="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition-shadow ">
   {% if thisBook.cover %}
-    <img src="{{ site.baseurl }}/images/{{ thisBook.cover }}" alt="{{ thisBook.title }}" class="w-full h-64 object-cover">
+    <img src="{{ site.baseurl }}/images/{{ thisBook.cover | relative_url}}" alt="{{ thisBook.title }}" class="w-full h-64 object-cover">
   {% endif %}
   <div class="p-4">
     <h2 class="text-xl font-gelica mb-2">{{ thisBook.title }}</h2>
