@@ -3,7 +3,7 @@ layout: recipe
 title:  Butter Chicken
 image: ground-beef-enchiladas.jpg
 # imagecredit:
-books: [indian]
+# books: [indian]
 courses: [dinner]
 cuisines: [Indian]
 # diets: []
