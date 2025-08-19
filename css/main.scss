@@ -1,6 +1,14 @@
 /* Only apply on small screens where nav is fixed at bottom */
 @media (max-width: 767px) {
-  main, .site-content {   /* adjust selector to match your main content wrapper */
-    padding-bottom: 80px; /* roughly the height of your nav (px-6 py-4) */
+  main, .site-content {   
+    padding-bottom: 80px; 
+  }
+  
+  body {
+    padding-top: 80px;
+  }
+  
+  div.content {
+    padding-bottom: 80px;
   }
 }
