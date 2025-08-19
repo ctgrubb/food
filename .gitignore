@@ -4,6 +4,9 @@
 Gemfile
 Gemfile.lock
 .DS_Store
+.sass-cache/
+node_modules/
+css/main.css.map
 _recipes/.obsidian/app.json
 _recipes/.obsidian/appearance.json
 _recipes/.obsidian/core-plugins.json

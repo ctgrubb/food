@@ -1257,8 +1257,9 @@ input[type=range] {
 .muted { opacity: .5 }
 
 @media (max-width: 767px) {
-  main.h-full {
+  body.h-full {
     padding-bottom: calc(4rem + env(safe-area-inset-bottom));
   }
 }
+
 
