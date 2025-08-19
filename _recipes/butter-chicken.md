@@ -13,13 +13,13 @@ cooktime: PT45m
 published: true
 
 ingredients:
-  - 1.5 lbs ground beef
+  - 1.75 lbs chicken thighs (boneless, skinless)
   - 1 yellow onion
   - 1 packet (2 tbsp) Old El Paso taco seasoning
   - 3 tbsp water
   - 12 small (6-7 inch) flour tortillas
   - 2 cups enchilada sauce
-  - 3 cups mexican cheese blend (or cheddar/monterey jack blend)
+  - 3 cups Mexican cheese blend (or cheddar/Monterrey jack blend)
 
 directions:
   - Chop onion and sauté for 5 minutes into translucent.
