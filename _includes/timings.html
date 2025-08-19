@@ -1,7 +1,7 @@
 {% assign thisRecipe = include.recipe %}
-<div class="center ml2 mr2">
+<div class="center ml2 mr2 flex flex-wrap items-center gap-4">
   {% if thisRecipe.preptime %}
-  <div class="inline-block xs-m1 sm-m2 flex items-center space-x-1">
+  <div class="flex items-center space-x-2">
     <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 512 512" fill="currentColor">
       <circle cx="256" cy="256" r="256"/>
       <rect x="246.21" y="52.09" width="19.58" height="214.26" rx="9.79" fill="#fff"/>
@@ -14,7 +14,7 @@
   {% endif %}
 
   {% if thisRecipe.cooktime %}
-  <div class="inline-block xs-m1 sm-m2 flex items-center space-x-1">
+  <div class="flex items-center space-x-2">
     <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 512 512" fill="currentColor">
       <circle cx="256" cy="256" r="256"/>
       <rect x="246.21" y="52.09" width="19.58" height="214.26" rx="9.79" fill="#fff"/>
@@ -27,7 +27,7 @@
   {% endif %}
 
   {% if thisRecipe.totaltime %}
-  <div class="inline-block xs-m1 sm-m2 flex items-center space-x-1">
+  <div class="flex items-center space-x-2">
     <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 512 512" fill="currentColor">
       <circle cx="256" cy="256" r="256"/>
       <rect x="246.21" y="52.09" width="19.58" height="214.26" rx="9.79" fill="#fff"/>
@@ -40,7 +40,7 @@
   {% endif %}
 
   {% if thisRecipe.activetime %}
-  <div class="inline-block xs-m1 sm-m2 flex items-center space-x-1">
+  <div class="flex items-center space-x-2">
     <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 512 512" fill="currentColor">
       <circle cx="256" cy="256" r="256"/>
       <rect x="246.21" y="52.09" width="19.58" height="214.26" rx="9.79" fill="#fff"/>
