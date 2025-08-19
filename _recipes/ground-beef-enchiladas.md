@@ -10,6 +10,7 @@ cuisines: [Mexican]
 yield: 12 enchiladas
 preptime: PT20m
 cooktime: PT40m
+totaltime: PT1h
 published: true
 
 ingredients:
