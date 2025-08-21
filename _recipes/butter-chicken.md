@@ -1,38 +1,46 @@
 ---
 layout: recipe
-title:  Butter Chicken
+title: Butter Chicken
 image: ground-beef-enchiladas.jpg
 # imagecredit:
-# books: [indian]
+books: [indian]
 courses: [dinner]
 cuisines: [Indian]
 # diets: []
-yield: 16 servings
-preptime: PT30m
+yield: 6 servings
+preptime: PT20m
 cooktime: PT45m
 published: true
 
 ingredients:
-  - 1.75 lbs chicken thighs (boneless, skinless)
-  - 1 yellow onion
-  - 1 packet (2 tbsp) Old El Paso taco seasoning
-  - 3 tbsp water
-  - 12 small (6-7 inch) flour tortillas
-  - 2 cups enchilada sauce
-  - 3 cups Mexican cheese blend (or cheddar/Monterrey jack blend)
+  - 2 lbs chicken thighs (boneless, skinless) *cut into bite-sized pieces*
+  - 3/4 cup plain yogurt (ideally not Greek)
+  - 2 + 2 Tbsp garlic *minced*
+  - 1 + 1 Tbsp ginger *minced*
+  - 1 + 1 Tbsp garam masala
+  - 1 tsp turmeric
+  - 1 + 1 tsp ground cumin
+  - 1 + 1 tsp red chili powder
+  - 1 + 2 tsp salt
+  - 3 Tbsp olive oil
+  - 2 Tbsp ghee
+  - 1 large yellow or red onion *chopped*
+  - 1 tsp ground coriander
+  - 3/4 passata (400g)
+  - 1 cup heavy cream
+  - 1 Tbsp sugar
+  - 1 Tbsp kasoori methi *dried fenugreek leaves*
 
 directions:
-  - Chop onion and sauté for 5 minutes into translucent.
-  - Add ground beef, and cook on medium heat until browned.
-  - Drain fat, and add water and taco seasoning.
-  - Preheat oven to 375 degrees.
-  - Allow meat to cook for a few minutes until water is completely gone.
-  - Combine meat, 1 half cup enchilada sauce, and 1 cup cheese in large bowl.
-  - Spread 1 half cup enchilada sauce over bottom of 9 by 13 glass baking dish.
-  - Briefly microwave 12 tortillas wrapped in wet paper towl to soften them slightly.
-  - Spoon mixture into tortillas and wrap tightly, placing them into baking dish.
-  - Top with remaining enchilada sauce and remaining cheese, in that order.
-  - Bake at 375 for 25-30 minutes. If cheese doesn't brown, broil to finish.
+  - Combine chicken thighs in bowl with 3/4 cup plain yogurt, 2 Tbsp minced garlic, 1 Tbsp minced ginger, 1 Tbsp garam masala, 1 tsp turmeric, 1 tsp ground cumin, 1 tsp red chili powder, and 1 tsp salt.
+  - Mix together and let marinate for at least 1 hour in fridge (ideally 6 hours or overnight).
+  - Heat 3 Tbsp oil in large skillet; when heated, add chicken and cook in batches to avoid crowding. Fry until browned (about 3 minutes per side). Set aside to keep warm.
+  - Add ghee and onion to skillet. Fry onions until translucent, but not brown. Scrape up any fond once the onions sweat.
+  - Add 2 Tbsp garlic and 1 Tbsp ginger and saute for 1 minute.
+  - Add 1 Tbsp garam masala, 1 tsp ground cumin, 1 tsp coriander; saute for 30 seconds.
+  - Add passata, 1 tsp red chili powder, and 2 tsp salt; let simmer for 10 minutes.
+  - Add heavy cream, sugar, and crushed kasoori methi. Stir together then add chicken back in.
+  - Cook for 10 minutes until chicken is cooked through.
 
 ---
-I was less than optimistic these wouldn't turn to mush, because I thought flour tortillas wouldn't work. I was completely wrong, these actually hold up much better than corn and despite being very basic, were *very* delicious.
+This is one of my favorite curries. Obviously it is not traditional (real curries pretty much never have heavy cream in them), but it is delicious!
